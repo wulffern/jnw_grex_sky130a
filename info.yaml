@@ -1,20 +1,21 @@
 library: JNW_GREX_SKY130A
 cell: JNW_GREX
 # Your name
-author: Anonymous
+author: Carsten Wulff
 # Your github username
-github: analogicus
+github: wulffern
 # Something funny and descriptive
-tagline: The answer is 42
+tagline: The bad(ish) temperature sensor
 # Your email, if you so wish
-email: anon@anon.com
+email: carsten@wulff.no
 # Your github site, usually <github username>.github.io
-url: analogicus.github.io
+url: analogicus.com
 doc:
   # Make docs
-  #libraries:
-  #   <library>:
-  #       - <cell>
-  #       - <cell>
+  libraries:
+    JNW_GREX_SKY130A:
+      - JNW_GREX
+      - JNWGREX_TI
+      - JNWGREX_ITD
 sim:
-  # <simdir>: command
+   JNW_GREX: make typical
