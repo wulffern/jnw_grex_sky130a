@@ -36,7 +36,11 @@ VRESET  RESET_1V8  VSS  pwl 0 {AVDD} 2u {AVDD} 2.01u 0
 *----------------------------------------------------------------
 * PROBE
 *----------------------------------------------------------------
-.save all
+.save v(do_1v8)
+.save v(pwrup_1v8)
+.save v(reset_1v8)
+.save v(pulse_1v8) v(vdd_1v8) i(vdd) i(vss)
+.save v(xdut.iptn) v(xdut.xitd.vo) v(xdut.ti.vbn)
 
 
 *----------------------------------------------------------------
