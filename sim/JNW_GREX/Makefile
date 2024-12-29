@@ -5,7 +5,7 @@ all: typical etc mc summary
 
 
 TB=tran
-VIEW=Sch
+VIEW=Lay
 #VIEW=Lay
 CELL=JNW_GREX
 LIB =JNW_GREX_SKY130A
