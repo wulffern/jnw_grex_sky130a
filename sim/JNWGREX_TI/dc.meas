@@ -1,0 +1,15 @@
+* Measure JNW_GREX
+.control
+
+
+echo "MEAS_START"
+
+load {cicname}.raw
+
+let vbn_b = v(xdut.vbn1) - v(xdut.vbn2)
+
+print vbn_b
+print xdut.vbn2
+
+echo "MEAS_END"
+.endc

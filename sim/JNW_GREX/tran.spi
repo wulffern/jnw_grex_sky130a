@@ -40,7 +40,8 @@ VRESET  RESET_1V8  VSS  pwl 0 {AVDD} 2u {AVDD} 2.01u 0
 .save v(pwrup_1v8)
 .save v(reset_1v8)
 .save v(pulse_1v8) v(vdd_1v8) i(vdd) i(vss)
-.save v(xdut.iptn) v(xdut.xitd.vo) v(xdut.ti.vbn)
+.save v(xdut.iptn) v(xdut.XA_TI1.IPTN) v(xdut.vo_1v8) v(xdut.xa_ti.vbn1) v(xdut.xa_ti.vbn2)
+.save all
 
 
 *----------------------------------------------------------------

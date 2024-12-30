@@ -5,80 +5,80 @@ K {}
 V {}
 S {}
 E {}
-N 580 -740 610 -740 {
+N 470 -500 500 -500 {
 lab=VDD_1V8}
-N 610 -770 610 -740 {
+N 500 -530 500 -500 {
 lab=VDD_1V8}
-N 580 -770 610 -770 {
+N 470 -530 500 -530 {
 lab=VDD_1V8}
-N 410 -770 580 -770 {
+N 300 -530 470 -530 {
 lab=VDD_1V8}
-N 740 -770 740 -710 {
+N 630 -530 630 -470 {
 lab=VDD_1V8}
-N 610 -770 740 -770 {
+N 500 -530 630 -530 {
 lab=VDD_1V8}
-N 580 -710 580 -630 {
+N 470 -470 470 -390 {
 lab=IPTN}
-N 580 -630 740 -630 {
+N 470 -390 630 -390 {
 lab=IPTN}
-N 740 -640 740 -630 {
+N 630 -400 630 -390 {
 lab=IPTN}
-N 540 -740 540 -690 {
+N 430 -500 430 -450 {
 lab=RESET_N_1V8}
-N 440 -690 540 -690 {
+N 330 -450 430 -450 {
 lab=RESET_N_1V8}
-N 410 -690 440 -690 {
+N 300 -450 330 -450 {
 lab=RESET_N_1V8}
-N 410 -550 580 -550 {
+N 300 -310 470 -310 {
 lab=IPTN}
-N 580 -630 580 -550 {
+N 470 -390 470 -310 {
 lab=IPTN}
-N 740 -440 840 -440 {
+N 630 -200 730 -200 {
 lab=IPTN}
-N 740 -630 740 -440 {
+N 630 -390 630 -200 {
 lab=IPTN}
-N 880 -540 880 -470 {
+N 770 -300 770 -230 {
 lab=VO_1V8}
-N 880 -440 910 -440 {
+N 770 -200 800 -200 {
 lab=VSS}
-N 910 -580 910 -440 {
+N 800 -340 800 -200 {
 lab=VSS}
-N 900 -580 910 -580 {
+N 790 -340 800 -340 {
 lab=VSS}
-N 910 -440 910 -410 {
+N 800 -200 800 -170 {
 lab=VSS}
-N 880 -410 910 -410 {
+N 770 -170 800 -170 {
 lab=VSS}
-N 880 -770 880 -620 {
+N 770 -530 770 -380 {
 lab=VDD_1V8}
-N 740 -770 880 -770 {
+N 630 -530 770 -530 {
 lab=VDD_1V8}
-N 880 -500 970 -500 {
+N 770 -260 860 -260 {
 lab=VO_1V8}
-N 680 -740 740 -740 {
+N 570 -500 630 -500 {
 lab=VDD_1V8}
-N 680 -710 680 -630 {
+N 570 -470 570 -390 {
 lab=IPTN}
-N 630 -740 640 -740 {
+N 520 -500 530 -500 {
 lab=PWRUP_B_1V8}
-N 630 -740 630 -650 {
+N 520 -500 520 -410 {
 lab=PWRUP_B_1V8}
-N 410 -650 630 -650 {
+N 300 -410 520 -410 {
 lab=PWRUP_B_1V8}
-N 400 -410 880 -410 {
+N 290 -170 770 -170 {
 lab=VSS}
-C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 540 -740 0 0 {name=x1 }
-C {devices/ipin.sym} 410 -770 0 0 {name=p1 lab=VDD_1V8}
-C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 740 -650 0 0 {name=xcap[15:0]}
-C {devices/ipin.sym} 410 -690 0 0 {name=p2 lab=RESET_N_1V8}
-C {devices/ipin.sym} 410 -550 0 0 {name=p3 lab=IPTN
+C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 430 -500 0 0 {name=x1 }
+C {devices/ipin.sym} 300 -530 0 0 {name=p1 lab=VDD_1V8}
+C {JNW_TR_SKY130A/JNWTR_CAPX1.sym} 630 -410 0 0 {name=xcap[31:0]}
+C {devices/ipin.sym} 300 -450 0 0 {name=p2 lab=RESET_N_1V8}
+C {devices/ipin.sym} 300 -310 0 0 {name=p3 lab=IPTN
 }
-C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 840 -440 0 0 {name=x2 }
-C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 880 -540 3 0 {name=x3 }
-C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 640 -740 0 0 {name=x5 }
-C {devices/ipin.sym} 410 -650 0 0 {name=p4 lab=PWRUP_B_1V8}
-C {devices/opin.sym} 970 -500 2 1 {name=p5 lab=VO_1V8}
-C {devices/ipin.sym} 400 -410 0 0 {name=p7 lab=VSS
+C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 730 -200 0 0 {name=x2 }
+C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 770 -300 3 0 {name=x3 }
+C {JNW_ATR_SKY130A/JNWATR_PCH_2C5F0.sym} 530 -500 0 0 {name=x5 }
+C {devices/ipin.sym} 300 -410 0 0 {name=p4 lab=PWRUP_B_1V8}
+C {devices/opin.sym} 860 -260 2 1 {name=p5 lab=VO_1V8}
+C {devices/ipin.sym} 290 -170 0 0 {name=p7 lab=VSS
 }
-C {cborder/border_s.sym} 1250 -170 0 0 {}
-C {devices/lab_wire.sym} 950 -500 0 0 {name=p9 sig_type=std_logic lab=VO}
+C {cborder/border_xs.sym} 0 0 0 0 {user="Carsten Wulff" company="Wulff Consulting"}
+C {devices/lab_wire.sym} 840 -260 0 0 {name=p9 sig_type=std_logic lab=VO}
