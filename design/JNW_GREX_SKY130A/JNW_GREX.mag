@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1735576154
+timestamp 1735577829
 << locali >>
 rect -400 6300 14800 6500
 rect -400 5800 -200 6300
@@ -293,7 +293,7 @@ rect 13030 -270 13035 -104
 rect 13201 -270 13206 -104
 rect 13030 -275 13206 -270
 use JNWTR_TAPCELLB_CV  JNWTR_TAPCELLB_CV_0 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_TR_SKY130A
-timestamp 1735485359
+timestamp 1735577759
 transform 1 0 12400 0 1 2720
 box -150 -120 2130 440
 use JNWGREX_TI  XA_TI1
@@ -301,9 +301,9 @@ timestamp 1735576154
 transform 1 0 -200 0 1 8000
 box -200 -8400 6600 -1854
 use JNWGREX_ITD  XB_ITD1
-timestamp 1735576154
+timestamp 1735577829
 transform 1 0 9900 0 -1 6600
-box -8700 868 2100 7030
+box -8700 868 2334 7030
 use JNWTR_IVX1_CV  xc1 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_GREX_SKY130A/../JNW_TR_SKY130A
 timestamp 1735576154
 transform 1 0 12400 0 1 0
