@@ -105,11 +105,12 @@ N 690 -370 690 -260 {
 lab=VSS}
 N 380 -370 400 -370 {
 lab=VSS}
+N 350 -210 380 -210 {}
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 470 -260 0 1 {name=x6[1:0]}
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 620 -260 0 0 {name=x2 }
 C {JNW_TR_SKY130A/JNWTR_RPPO16.sym} 430 -640 1 0 {name=x3 }
 C {devices/ipin.sym} 380 -740 0 0 {name=p1 lab=VDD_1V8}
-C {devices/ipin.sym} 380 -210 0 0 {name=p2 lab=VSS}
+C {devices/ipin.sym} 350 -210 0 0 {name=p2 lab=VSS}
 C {devices/opin.sym} 660 -570 2 1 {name=p3 lab=IPTN}
 C {JNW_ATR_SKY130A/JNWATR_PCH_2C1F2.sym} 390 -690 0 0 {name=x4 }
 C {JNW_ATR_SKY130A/JNWATR_NCH_2C5F0.sym} 510 -140 0 0 {name=x5 }

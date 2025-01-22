@@ -4,6 +4,13 @@ options:
 corner:
   Lay: ''
   Sch: ''
+  Mdlitd: |
+    .include ../../../../cpdk/ngspice/ideal_circuits.spi
+    .include ../../../design/JNW_GREX_SKY130A/JNWGREX_ITD.mdl
+  Mdlti: |
+    .include ../../../../cpdk/ngspice/ideal_circuits.spi
+    .include ../../../design/JNW_GREX_SKY130A/JNWGREX_TI.mdl
+  No: ''
 ngspice:
   library: JNW_GREX_SKY130A
   cell: JNW_GREX

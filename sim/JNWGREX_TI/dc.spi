@@ -40,6 +40,7 @@ VO IPTN 0 dc 0.9
 *----------------------------------------------------------------
 .save all
 
+B5 temp 0 v=temper
 
 *----------------------------------------------------------------
 * NGSPICE control
@@ -54,6 +55,13 @@ optran 0 0 0 100n 10u 0
 
 
 dc TEMP -40 100 5
+
+print v(temp-sweep)
+
+
+let vbn2_d1 = deriv(v(xdut.vbn2))/deriv(v(temp))
+let vbn2_d2 = deriv(vbn2_d1)/deriv(v(temp))
+
 write
 quit
 

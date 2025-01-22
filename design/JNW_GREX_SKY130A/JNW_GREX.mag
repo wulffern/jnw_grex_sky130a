@@ -292,7 +292,7 @@ rect 13574 251 13743 2730
 rect 13030 -270 13035 -104
 rect 13201 -270 13206 -104
 rect 13030 -275 13206 -270
-use JNWTR_TAPCELLB_CV  JNWTR_TAPCELLB_CV_0 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_TR_SKY130A
+use JNWTR_TAPCELLB_CV  JNWTR_TAPCELLB_CV_+ ../JNW_TR_SKY130A
 timestamp 1735577759
 transform 1 0 12400 0 1 2720
 box -150 -120 2130 440
@@ -304,7 +304,7 @@ use JNWGREX_ITD  XB_ITD1
 timestamp 1735577829
 transform 1 0 9900 0 -1 6600
 box -8700 868 2334 7030
-use JNWTR_IVX1_CV  xc1 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_GREX_SKY130A/../JNW_TR_SKY130A
+use JNWTR_IVX1_CV  xc1 ../JNW_TR_SKY130A
 timestamp 1735576154
 transform 1 0 12400 0 1 0
 box -150 -120 2130 440
@@ -320,7 +320,7 @@ use JNWTR_IVX1_CV  xc4
 timestamp 1735576154
 transform 1 0 12400 0 1 960
 box -150 -120 2130 440
-use JNWTR_IVX2_CV  xc5 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_GREX_SKY130A/../JNW_TR_SKY130A
+use JNWTR_IVX2_CV  xc5 ../JNW_TR_SKY130A
 timestamp 1735576154
 transform 1 0 12400 0 1 1280
 box -150 -120 2130 600
@@ -328,7 +328,7 @@ use JNWTR_IVX2_CV  xc6
 timestamp 1735576154
 transform 1 0 12400 0 1 1760
 box -150 -120 2130 600
-use JNWTR_NRX1_CV  xc7 ~/data/2023/aicex/ip/jnw_grex_sky130a/design/JNW_GREX_SKY130A/../JNW_TR_SKY130A
+use JNWTR_NRX1_CV  xc7 ../JNW_TR_SKY130A
 timestamp 1735576154
 transform 1 0 12400 0 1 2240
 box -150 -120 2130 600
