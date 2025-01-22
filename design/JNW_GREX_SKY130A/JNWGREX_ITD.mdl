@@ -1,0 +1,15 @@
+*MDL
+
+.subckt JNWGREX_ITD VDD_1V8 RESET_N_1V8 PWRUP_B_1V8 IPTN VO_1V8 VSS
+
+C1 VDD_1V8 IPTN 1.4p
+
+VDC REF 0 dc 0.56
+
+XOTA IPTN REF VO_1V8 ON VDD_1V8 VSS cpdk_ideal_ota_diff
+
+XS1 VDD_1V8 IPTN RESET_N_1V8 VDD_1V8 VSS cpdk_ideal_switch_cn
+XS2 VDD_1V8 IPTN PWRUP_B_1V8 VDD_1V8 VSS cpdk_ideal_switch_cn
+
+.ends
+

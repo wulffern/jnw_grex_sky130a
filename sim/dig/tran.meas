@@ -1,0 +1,17 @@
+* Measure dig
+.control
+
+
+echo "MEAS_START"
+
+set fend = .raw
+foreach vtemp {temperatures}
+  option temp=$vtemp
+  load {cicname}_$vtemp$fend
+meas tran tpulse_$vtemp TRIG v(pulse_1v8) VAL=0.9 RISE=1 TARG v(pulse_1v8) VAL=0.9 FALL=1
+meas tran counter_$vtemp AVG v(dec_counter) FROM=2u TO=4u
+meas tran temp_$vtemp AVG v(dec_temperature) FROM=2u TO=4u
+end
+
+echo "MEAS_END"
+.endc
